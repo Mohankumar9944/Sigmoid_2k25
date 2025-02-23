@@ -58,7 +58,7 @@ body, html {
 .text-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .text-section p {
@@ -72,7 +72,9 @@ body, html {
 }
 
 .image-section img {
-    width: 100%;
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }

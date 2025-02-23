@@ -128,13 +128,13 @@ body, html {
     margin-bottom: 15px;
 }
 
-.event-details {
+/* .event-details {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     font-size: 0.9rem;
     opacity: 0.7;
-}
+} */
 
 .register-btn {
     width: 100%;

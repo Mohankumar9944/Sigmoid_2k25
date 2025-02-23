@@ -71,7 +71,7 @@ h3,
 h4 {
   font-weight: 100;
   text-transform: uppercase;
-  width: min-content;
+  /* width: min-content; */
   line-height: 1;
 }
 
