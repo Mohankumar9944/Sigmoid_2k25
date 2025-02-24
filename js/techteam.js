@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Mohan Kumar", 
             role: "UI UX Designer", 
             img: "./images/gowtham2.jpg", 
-            instagram: "https://www.instagram.com/gowtham__2303/", 
-            email: "johndoe@example.com" 
+            instagram: "https://www.instagram.com/mohan_chaarugundla44/", 
+            email: "mrmohancmk2004@gmail.com" 
         },
         { 
-            name: "Rakesh K", 
+            name: "Rakesh", 
             role: "Frontend Developer", 
             img: "./images/gowtham2.jpg", 
-            instagram: "https://www.instagram.com/gowtham__2303/", 
-            email: "johndoe@example.com" 
+            instagram: "https://www.instagram.com/traveler_guy_0_4_0_8/", 
+            email: "rakmad0408@gmail.com" 
         },
        
     ];
@@ -63,10 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             event: "Codex",
-            contact: "+91 87654 32109",
+            contact: "+91 8897676594",
             members: [
-                "Kavya",
-                "Rakesh"
+                "Rakesh",
+                "Kavya"
             ]
         },
         {
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             event: "Workshops",
             contact: "+91 87654 32109",
             members: [
-                "Bharat",
+                "Bharath",
                 "Vyshnavi",
             ]
         }
