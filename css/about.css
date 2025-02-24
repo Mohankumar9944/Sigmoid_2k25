@@ -15,7 +15,7 @@ body, html {
 
 /* Hero Section */
 .hero-section {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,15 +26,16 @@ body, html {
     text-align: center;
 }
 
-.hero-section h1 {
+.hero-section h3 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .subtitle {
     font-size: 1.5rem;
     opacity: 0.8;
+    margin-bottom:20px;
 }
 
 /* About Section */
@@ -53,6 +54,8 @@ body, html {
 
 .text-section {
     flex: 1;
+    height: 47vh;
+
 }
 
 .text-section h2 {
@@ -67,13 +70,40 @@ body, html {
     opacity: 0.8;
 }
 
+.sponsors {
+    margin-top: 20px;
+    padding:20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sponsors h3 {
+    color: white;
+}
+
+.sponsors-icons {
+    padding-top: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sponsors-icons img {
+    border-radius: 50%;
+}
+
+.rankings {
+    margin-top: 20px;
+    padding: 20px;
+}
+
 .image-section {
     flex: 1;
 }
 
 .image-section img {
-    width: 90%;
-    height: 350px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
