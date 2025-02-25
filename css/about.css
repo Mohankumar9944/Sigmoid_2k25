@@ -45,7 +45,7 @@ body, html {
     padding: 20px;
     display: flex;
     align-items: center;
-    /* gap: 50px; */
+    gap: 50px;
 }
 
 .content-wrapper.reverse {
@@ -87,18 +87,18 @@ body, html {
 }
 
 
-.head{
-    margin:30px;
+.Committee{
+    /* margin:30px; */
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     gap:20px;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .mission-section {
-    width: 500px;
+    max-width: 400px;
     height: 430px;
     background-color: rgba(255, 255, 255, 0.05);
     
@@ -142,7 +142,7 @@ body, html {
 .image-section p{
 
     margin-top: 10px;
-    font-size:17px;
+    font-size:14px;
     color: white;
     font-weight: bold;
 }
