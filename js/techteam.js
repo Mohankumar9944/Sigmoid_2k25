@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { 
             name: "Mohan Kumar", 
             role: "UI UX Designer", 
-            img: "./images/gowtham2.jpg", 
+            img: "./images/mohan.jpeg", 
             instagram: "https://www.instagram.com/mohan_chaarugundla44/", 
             email: "mrmohancmk2004@gmail.com" 
         },
