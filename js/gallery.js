@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
   autoplay: {
-    delay: 1800,
+    delay: 800,
     disableOnInteraction: false,
   },
 });
