@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { 
             name: "Rakesh", 
             role: "Frontend Developer", 
-            img: "./images/gowtham2.jpg", 
+            img: "./images/rakesh1.jpeg", 
             instagram: "https://www.instagram.com/traveler_guy_0_4_0_8/", 
             email: "rakmad0408@gmail.com" 
         },
