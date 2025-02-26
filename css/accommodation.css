@@ -30,6 +30,7 @@ body, html {
     margin-bottom: 80px;
 }
 
+
 .detail-card {
     position: relative;
     background-color: rgba(255, 255, 255, 0.05);
@@ -38,12 +39,14 @@ body, html {
     width: 300px;
     text-align: center;
 }
-
 .detail-card h3 {
-    align-self: center;
-    font-size: 1.8rem;
-    margin: 0 auto;
+    text-align: center; /* Centers text */
+    font-size: 2rem; /* Increases font size */
+    font-weight: bold; /* Makes text bolder */
+    color: yellow; /* Sets text color to yellow */
 }
+
+
 
 .detail-card p {
     /* position: absolute;
