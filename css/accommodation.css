@@ -66,17 +66,19 @@ body, html {
 .register-btn {
     padding: 15px 30px;
     font-size: 1.2rem;
-    background-color: #ff6b6b;
+    background: linear-gradient(45deg, #f20404, #0b0000);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-bottom: 20px;
+    border: 1px solid white;
 }
 
 .register-btn:hover {
     background-color: #ff8e53;
+    box-shadow: 0 0 90px rgb(0, 94, 255);
 }
 
 .register-section p {
