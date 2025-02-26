@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { 
             name: "Gowtham Sree", 
             role: "Developer", 
-            img: "./images/gowtham2.jpg", 
+            img: "./images/Gowtham.jpg", 
             instagram: "https://www.instagram.com/gowtham__2303/", 
             email: "johndoe@example.com" 
         },
