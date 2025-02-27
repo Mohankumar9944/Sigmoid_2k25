@@ -78,6 +78,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         {
+            event: "Quiz Mania",
+            contact: "+91 6281636449",
+            members: [
+                "Sai Charan",
+                "SriVani",
+            ]
+        },
+        {
             event: "Workshops",
             contact: "+91 9550990266",
             members: [
@@ -216,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     accommodationMembers.forEach(member => {
         const card = document.createElement("div");
         card.classList.add("team-card");
-        card.innerHTML = `<h3>${member.name}</h3><p>${member.role}</p>`;
+        card.innerHTML = `<h3>${member.name}</h3><p style="color: yellow;">${member.role}</p>`;
         accommodationContainer.appendChild(card);
     });
 
