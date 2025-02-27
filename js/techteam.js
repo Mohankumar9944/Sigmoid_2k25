@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             event: "Quiz Mania",
-            contact: "+91 6281636449",
+            contact: "+91 9502996405",
             members: [
                 "Sai Charan",
                 "SriVani",
