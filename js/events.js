@@ -33,11 +33,20 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
-        });
+        })
     });
-
 });
 
-function flipCard(card) {
-    card.style.transform = card.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
-}
+cards = document.querySelectorAll('.card')
+
+cards.forEach(card => {
+    card.addEventListener('click', ()=>{
+        if(window.innerWidth<=500){
+
+            card.style.transform = card.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+        }
+    })
+})
+// function flipCard(card) {
+//     card.style.transform = card.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+// }

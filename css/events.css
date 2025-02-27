@@ -167,7 +167,10 @@ h2{
 .card-container {
     perspective: 1000px;
     padding: 20px;
-    display: flex
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 .card {
@@ -179,7 +182,6 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .front, .back {
@@ -206,14 +208,13 @@ h2{
     transform: rotateY(180deg);
 }
 
-.card-container:hover .card {
+.card:hover{
     transform: rotateY(180deg);
 }
 
 .e-sports {
     display: flex;
     flex-direction: column;
-    
 }
 
 .e-sports h2{
