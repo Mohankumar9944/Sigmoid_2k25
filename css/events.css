@@ -163,3 +163,63 @@ h2{
         gap: 10px;
     }
 } 
+
+.card-container {
+    perspective: 1000px;
+    padding: 20px;
+    display: flex
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front {
+    
+    color: wheat;
+    transform: rotateY(0deg);
+}
+
+
+.back {
+    background-color: #f103b6;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+.e-sports {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.e-sports h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+    margin-top: 50px;
+}
