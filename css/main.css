@@ -182,15 +182,12 @@ body {
     color: inherit; /* Keeps original text color */
 }
 
-.card:hover {
-    transform: translateY(-10px);
-    border-color: #0EA5E9;
-}
-
 /* Ensure clickable effect on hover */
 .card:active {
     transform: translateY(-5px);
 }
+
+
 
 .register {
     text-align: center;
