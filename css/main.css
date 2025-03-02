@@ -299,6 +299,6 @@ footer {
   .logo{
     margin-top: 5px;
     margin-left: -10px;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
   }
 }
