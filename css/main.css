@@ -176,6 +176,22 @@ body {
     margin-bottom: 1rem;
 }
 
+.card {
+    display: block; /* Ensures the entire card is clickable */
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps original text color */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #0EA5E9;
+}
+
+/* Ensure clickable effect on hover */
+.card:active {
+    transform: translateY(-5px);
+}
+
 .register {
     text-align: center;
     padding: 4rem 2rem;

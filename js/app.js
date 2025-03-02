@@ -108,24 +108,75 @@ document.addEventListener('mousemove', (e) => {
     }
 });
 // Countdown timer
+// function updateCountdown() {
+//     const targetDate = new Date('2025-03-22').getTime();
+//     const now = new Date().getTime();
+//     const difference = now - targetDate;
+//     if (difference <= 0) {
+//         document.getElementById('days').textContent = '00';
+//         document.getElementById('hours').textContent = '00';
+//         document.getElementById('minutes').textContent = '00';
+//         document.getElementById('seconds').textContent = '00';
+//         clearInterval(interval); // Stop countdown when it reaches 0
+//         return;
+//     }
+//     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+//     const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+//     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+//     document.getElementById('days').textContent = String(days).padStart(2, '0');
+//     document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+//     document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+//     document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+// }
+// setInterval(updateCountdown, 1000);
+// updateCountdown();
+// // Handle window resize
+// window.addEventListener('resize', () => {
+//     camera.aspect = window.innerWidth / window.innerHeight;
+//     camera.updateProjectionMatrix();
+//     renderer.setSize(window.innerWidth, window.innerHeight);
+// });
+
+
+
+
+// Countdown timer
+
 function updateCountdown() {
-    const targetDate = new Date('2025-01-20').getTime();
+    const targetDate = new Date('2025-03-22T00:00:00').getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
+
+    if (difference <= 0) {
+        document.getElementById('days').textContent = '00';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+        clearInterval(interval); // Stop countdown
+        return;
+    }
+
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
     document.getElementById('days').textContent = String(days).padStart(2, '0');
     document.getElementById('hours').textContent = String(hours).padStart(2, '0');
     document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
     document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
 }
-setInterval(updateCountdown, 1000);
-updateCountdown();
-// Handle window resize
+
+const interval = setInterval(updateCountdown, 1000);
+updateCountdown(); // Call once immediately
+
+// Handle window resize for Three.js (if needed)
 window.addEventListener('resize', () => {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    if (typeof camera !== 'undefined' && typeof renderer !== 'undefined') {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    }
 });
