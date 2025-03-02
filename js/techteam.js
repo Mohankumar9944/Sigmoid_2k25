@@ -35,54 +35,67 @@ document.addEventListener("DOMContentLoaded", () => {
     /** Technical Event Coordinators - Updated Structure */
     const eventCoordinators = [
         {
-            event: "Technovate",
+            event: "TECHFUZION",
             contact: "+91 7013145216",
             members: [
                 "Kumar",
                 "Chandrika",
-                "Yashwanthi",
+                "Yaswanthi",
+                "Sk Arshad Ahmad",
+                "S Sadvika"
             ]
         },
         {
-            event: "Posterize",
+            event: "POSTERIZE",
             contact: "+91 8367749746",
             members: [
-                "Shaheer",
-                "Rasghna",
+                "S.Shaheer",
+                "Rasaghna",
                 "Mounika",
+                "P.Harshavardhan",
+                "P.Harika"
             ]
         },
         {
-            event: "Avishkar",
+            event: "INNOVISTA",
             contact: "+91 9063595130",
             members: [
                 "Ganesh",
                 "Himaja",
-                "Divya"
+                "Divya",
+                "K Raga Deepika",
+                "P.Muni Bhavani"
+
             ]
         },
         {
-            event: "Codex",
+            event: "CODEVERSE",
             contact: "+91 8897676594",
             members: [
                 "Rakesh",
-                "Kavya"
+                "Kavya",
+                "K.Charan Sai",
+                "S.Hyndavi"
             ]
         },
         {
-            event: "Circutix",
-            contact: "+91 9392363592",
+            event: "TECHCRIX",
+            contact: "+91 9392163412",
             members: [
                 "Dayakar",
                 "Varshitha",
+                "P.Manoj",
+                "V.Rajeswari"
             ]
         },
         {
-            event: "Quiz Mania",
+            event: "QUIZTRONICS",
             contact: "+91 9502996405",
             members: [
                 "Sai Charan",
                 "SriVani",
+                "G.Praveen Kumar",
+                "C.Jahnavi Reddy"
             ]
         },
         {
@@ -91,6 +104,9 @@ document.addEventListener("DOMContentLoaded", () => {
             members: [
                 "Bharath",
                 "Vyshnavi",
+                "Bhanu Vamsidhar",
+                "B.Divya",
+                "N.Suvarna"
             ]
         }
     ];
@@ -98,27 +114,72 @@ document.addEventListener("DOMContentLoaded", () => {
     /** Non-Tech Events - Simplified Structure */
     const nonTechEvents = [
         {
-            event: "Marketing Team",
+            event: "KIM'S GAME",
             members: [
-                "Sarah Lee",
-                "David Wilson",
-                "Emma Davis",
-                "Ryan Thomas",
-                "Jessica Brown"
+                "T.Thejesh",
+                "J.Raji Moulika",
+                "N.Devi",
+                "K.Charitha"
             ]
         },
         {
-            event: "Creative Team",
+            event: "CLICK FEST",
             members: [
-                "William Scott",
-                "Mia Anderson",
-                "Tom Harris",
-                "Luna Park",
-                "Chris Baker"
+                "Y.Ram Harshan",
+                "B.Hema Sree",
+                "N.Sravani"
+            ]
+        },
+
+        
+        {
+            event: "DUMBSHARADES",
+            members: [
+                "V.Uday Kumar",
+                "V.Aswini",
+                "K.Durga Kalyani",
+                "M.Pavithra"
             ]
         },
         {
-            event: "PR Team",
+            event: "GUESS BUSTERS",
+            members: [
+                "S.Shaheer Shaik",
+                "V.Aswini",
+                "P.Likitha",
+                "B.Vinusha",
+                "V.Kavya SreeS"
+            ]
+        },
+        {
+            event: "SPOT EVENTS",
+            members: [
+                "S.Narasimha Reddy",
+                "Y.Sai Karthik",
+                "Jhony",
+                "Yashwanth",
+                "Trinadh"
+            ]
+        },
+        {
+            event: "Photography",
+            members: [
+                "Vineeth",
+                "Sohail",
+            ]
+        },
+        {
+            event: "Editing",
+            members: [
+                "Pramod",
+                "Likitha",
+                "Prasana",
+                "Arafath",
+                "Ravi"
+            ]
+        },
+        {
+            event: "Marketing",
             members: [
                 "Alex Johnson",
                 "Maria Garcia",
@@ -131,6 +192,8 @@ document.addEventListener("DOMContentLoaded", () => {
     /** Accommodation Team */
     const accommodationMembers = [
         { name: "Shaik Shaheer", role: "Boys Accommodation" },
+        { name: "Shaik Shaheer", role: "Boys Accommodation" },
+        { name: "Anushka Sharma", role: "Girls Accommodation" },
         { name: "Shradha Kapoor ", role: "Girls Accommodation" }
     ];
 
