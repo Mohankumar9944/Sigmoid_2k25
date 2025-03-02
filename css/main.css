@@ -40,21 +40,6 @@ body {
   top: 60px; /* Added space for navbar */
 }
 
-
-
-/* Mobile styles */
-/* @media (max-width: 768px) {
-  #pc_reg{
-    display: none;
-  }
-}
-
-@media (min-width: 768px){
-  #mobile_reg{
-    display: none;
-  }
-} */
-
 #main {
   font-family: cursive;
 }
