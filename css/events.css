@@ -119,9 +119,10 @@ body, html {
 }
 
 .event-content h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     font-weight: 300;
+    color: #51b5d0;
 }
 
 .event-content p {
@@ -140,7 +141,7 @@ body, html {
 .register-btn {
     width: 100%;
     padding: 10px;
-    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    background: linear-gradient(45deg, #0EA5E9, #1EAEDB);
     border: none;
     border-radius: 5px;
     color: white;
@@ -193,12 +194,19 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .front {
     
     color: wheat;
     transform: rotateY(0deg);
+}
+
+.front img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 
 

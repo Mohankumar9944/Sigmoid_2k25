@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "V.Aswini",
                 "P.Likitha",
                 "B.Vinusha",
-                "V.Kavya SreeS"
+                "V.Kavya Sree"
             ]
         },
         {
