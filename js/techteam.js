@@ -158,7 +158,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Y.Sai Karthik",
                 "Jhony",
                 "Yashwanth",
-                "Trinadh"
+                "Anu Priya",
+                "Keerthana"
             ]
         },
         {
@@ -166,6 +167,8 @@ document.addEventListener("DOMContentLoaded", () => {
             members: [
                 "Vineeth",
                 "Sohail",
+                "Muni Bhavani",
+                "Hyndavi"
             ]
         },
         {
@@ -173,28 +176,48 @@ document.addEventListener("DOMContentLoaded", () => {
             members: [
                 "Pramod",
                 "Likitha",
+                "Charan Sai",
                 "Prasana",
                 "Arafath",
-                "Ravi"
+                "Ravi",
+                "Thrinadh"
+                
             ]
         },
         {
             event: "Marketing",
             members: [
-                "Alex Johnson",
-                "Maria Garcia",
-                "James Wilson",
-                "Sophie Chen"
+                "Sai Charan",
+                "Narsimha",
+                "Rasghna",
+                "Chandrika",
+                "Rajeswari",
+                "Sravani",
+                "Raga Deepika"
             ]
-        }
+        },
+        {
+            event: "PSM",
+            members: [
+                "S.Narasimha Reddy",
+                "BalaKrishna",
+                "Manoj",
+                "Sai Charan",
+                "Praveen",
+                "Nishep",
+                "Umashankar"
+            ]
+        },
     ];
 
     /** Accommodation Team */
     const accommodationMembers = [
-        { name: "Shaik Shaheer", role: "Boys Accommodation" },
-        { name: "Shaik Shaheer", role: "Boys Accommodation" },
-        { name: "Anushka Sharma", role: "Girls Accommodation" },
-        { name: "Shradha Kapoor ", role: "Girls Accommodation" }
+        { name: "Thejesh", role: "Boys Accommodation" },
+        { name: "Tharun", role: "Boys Accommodation" },
+        { name: "Sudharshan Reddy", role: "Boys Accommodation" },
+        { name: "Hari Saha Sree", role: "Girls Accommodation" },
+        { name: "Amulya ", role: "Girls Accommodation" },
+        { name: "Sree Meghana ", role: "Girls Accommodation" }
     ];
 
     /** Function to Create Tech Member Card */
@@ -298,7 +321,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2>Supporting Team Members</h2>
         <p>We are proud to have the enthusiastic support of our junior team members:</p>
         <div class="support-content">
-            <p>Our events are supported by dedicated teams of second-year and first-year students who work tirelessly behind the scenes to ensure the success of every event. Their energy and commitment are invaluable to our organization.</p>
+            <p>Our events are supported by dedicated teams of Final year, Third year, second-year and first-year students who work tirelessly behind the scenes to ensure the success of every event. Their energy and commitment are invaluable to our organization.</p>
         </div>
     `;
     document.querySelector(".tech-team-container").appendChild(supportText);
